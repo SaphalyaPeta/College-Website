@@ -1,0 +1,80 @@
+input {
+
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: blue;
+  color: white;
+}
+
+/* Style the container for inputs */
+.container {
+  background-color:white;
+  padding: 20px;
+  border-left:80px;
+}
+
+/* The message box is shown when the user clicks on the password field */
+#message {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "&#10004;";
+}
+
+/* Add a red text color and an "x" icon when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "&#10006;";
+}
+
+
+
+.v1{
+	
+	border-left:6px solid black;
+	height:455px;
+}
+
+
+.v2{
+	
+	border-right:6px solid black;
+	height:455px;
+}
+.c1{
+float:left;
+border-left:200px;
+}
+.c2{
+float:right}

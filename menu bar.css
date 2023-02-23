@@ -1,0 +1,130 @@
+
+.dropbtn {
+  background-color:white;
+  color: darkblue;
+  padding: 10px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.csebtn {
+  background-color:white;
+  color: darkblue;
+  padding: 10px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn {
+  background-color:white;
+  color: darkblue;
+  padding: 10px;
+  font-size: 19px;
+  border: none;
+  cursor: pointer;
+  text-decoration:none;
+}
+
+
+.dropbtn:hover, 
+.dropbtn:focus {
+  background-color:#F0F0F0;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  text-decoration-color:#F0F0F0
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 180px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index:100;
+   padding-right: 1em;
+}
+
+
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width:430px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 100;
+}
+
+
+
+.dropdown-content3 {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width:350px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 100;
+}
+
+.dropdown-content4 {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width:150px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 100;
+}
+
+
+
+
+.dropdown-content a {
+  color: darkblue;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+   padding-right: 1em;
+}
+
+.dropdown-content2 a {
+  color: darkblue;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content3 a {
+  color: darkblue;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content4 a {
+  color: darkblue;
+  padding: 12px 16px;
+  text-decoration: none;
+  display:block;
+   margin-left: 10px;
+   right: 98%;
+   content:'>';
+}
+
+.dropdown a:hover {background-color:#F0F0F0;}
+
+.show {display:block;}
+.show1 {display:inline-block;}
+
+
