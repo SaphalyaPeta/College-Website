@@ -1,0 +1,48 @@
+div#logo{
+position:absolute;
+left:5px;
+top:3px;
+width:985px;
+height:155px;
+}
+
+
+
+
+
+div#main
+{
+   width: 996px;
+   position: relative;
+   margin-top: 0px;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+}
+body
+{
+   text-align: center;
+   margin: 0;
+   background-color: #FFFFFF;
+   color: #000000;
+}
+a.style:link
+{
+   color: #333222;
+   text-decoration: none;
+}
+a.style:visited
+{
+   color: #333222;
+   text-decoration: none;
+}
+a.style:active
+{
+   color: #333222;
+   text-decoration: underline;
+}
+a.style:hover
+{
+   color: #333222;
+   text-decoration: underline;
+}
